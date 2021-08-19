@@ -51,3 +51,4 @@ Route::post('/countries/store', 'CountriesController@store');
 Route::get('/states', 'StatesController@index');
 Route::get('/states/create', 'StatesController@create');
 Route::post('/states/store', 'StatesController@store');
+Route::get('/states/show/{id}', 'StatesController@show');

@@ -26,4 +26,10 @@ class StatesController extends Controller
       $stateData->save();
       return redirect('/states');
     }
+
+    public function show($id)
+    {
+      $stateData = State::findOrFail($id);
+      return view('states.show', compact('stateData'));
+    }
 }

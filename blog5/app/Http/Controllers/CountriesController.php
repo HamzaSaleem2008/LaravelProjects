@@ -17,4 +17,12 @@ class CountriesController extends Controller
     {
       return view('countries.create');
     }
+
+    public function store(Request $request)
+    {
+      $countryData = new Country();
+      $countryData->name = $request->CountryName;
+      $countryData->save();
+      return redirect('/countries');
+    }
 }

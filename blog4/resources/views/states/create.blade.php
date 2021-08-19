@@ -23,15 +23,17 @@
     <body>
       <div class="container">
         <h1>States Create</h1>
-        <form class="" action="index.html" method="post">
+        <form class="" action="/state/store" method="post">
+          @csrf
           <div class="form-group">
-            <label for="StatesName">States Name</label>
-            <input class="form-control" id="StatesName" type="text" name="StatesName" value="">
+            <label for="StateName">States Name</label>
+            <input class="form-control" id="StateName" type="text" name="StateName" value="">
           </div>
           <div class="form-group">
             <label for="Status">Status</label>
             <input class="form-control" id="Status" type="text" name="Status" value="">
           </div>
+          <button class="btn btn-primary" type="submit" name="submit">Submit</button>
         </form>
       </div>
   </body>

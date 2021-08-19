@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
@@ -21,15 +20,12 @@
   </head>
   <body>
     <div class="container">
-      <h1>Country Create</h1>
-      <form class="" action="/countries/store" method="post">
-        @csrf
-        <div class="form-group">
-          <label for="CountryName">Country Name</label>
-          <input class="form-control" id="CountryName" type="text" name="CountryName" value="">
-        </div>
-        <button class="btn btn-primary" type="submit" name="submit">Submit</button>
-      </form>
+      <h1>State</h1>
+      <h4>State Name: {{$stateData->name}}</h4>
+      <h4>Status: {{$stateData->status}}</h4>
+      <p>Created At: {{$stateData->created_at}}</p>
+      <p>Updated At: {{$stateData->updated_at}}</p>
     </div>
   </body>
+
 </html>

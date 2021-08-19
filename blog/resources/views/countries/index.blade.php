@@ -26,6 +26,7 @@
           <tr>
             <th scope="col">#</th>
             <th scope="col">Name</th>
+            <th scope="col">Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -33,6 +34,7 @@
             <tr>
               <td>{{ $country->id }}</td>
               <td>{{ $country->name }}</td>
+              <td><a class="btn btn-info" href="/countries/show/{{$country->id}}">Show</a></td>
             </tr>
           @endforeach
         </tbody>

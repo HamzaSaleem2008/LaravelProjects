@@ -45,6 +45,9 @@ Route::get('/tj9', 'Hamza9Controller@index');
 Route::get('/tj10', 'Hamza10Controller@index');
 
 Route::get('/countries', 'CountriesController@index');
-Route::get('/states', 'StatesController@index');
 Route::get('/countries/create', 'CountriesController@create');
+Route::post('/countries/store', 'CountriesController@store');
+
+Route::get('/states', 'StatesController@index');
 Route::get('/states/create', 'StatesController@create');
+Route::post('/states/store', 'StatesController@store');
