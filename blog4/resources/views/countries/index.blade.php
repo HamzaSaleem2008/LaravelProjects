@@ -28,6 +28,7 @@
             <th scope="col">Name</th>
             <th scope="col">Create at</th>
             <th scope="col">Updated at</th>
+            <th scope="col">Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -37,6 +38,11 @@
               <td>{{ $country->name }}</td>
               <td>{{ $country->created_at }}</td>
               <td>{{ $country->updated_at }}</td>
+              <td>
+                <a class="btn btn-info" href="/countries/show/{{$country->id}}">Show</a>
+                <a class="btn btn-primary" href="/countries/create">Create</a>
+                <a class="btn btn-warning" href="/countries/edit/{{$country->id}}">Edit</a>
+              </td>
             </tr>
           @endforeach
         </tbody>

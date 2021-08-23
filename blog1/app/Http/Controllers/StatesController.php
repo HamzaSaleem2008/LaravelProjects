@@ -32,4 +32,10 @@ class StatesController extends Controller
       $stateData = State::findOrFail($id);
       return view('states.show', compact('stateData'));
     }
+
+    public function edit($id)
+    {
+      $stateData = State::findOrFail($id);
+      return view('states.edit', compact('stateData'));
+    }
 }

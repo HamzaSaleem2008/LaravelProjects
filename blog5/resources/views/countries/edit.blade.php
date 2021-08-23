@@ -21,12 +21,12 @@
   </head>
   <body>
     <div class="container">
-      <h1>Country Create</h1>
-      <form class="" action="/countries/store" method="post">
+      <h1>Edit Country Detail</h1>
+      <form class="" action="index.html" method="post">
         @csrf
         <div class="form-group">
           <label for="CountryName">Country Name</label>
-          <input class="form-control" id="CountryName" type="text" name="CountryName" value="">
+          <input class="form-control" id="CountryName" type="text" name="CountryName" value="{{$countryData->name}}">
         </div>
         <button class="btn btn-primary" type="submit" name="button">Submit</button>
       </form>

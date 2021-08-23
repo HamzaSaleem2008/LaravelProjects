@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\States;
+use App\State;
 
 class StatesController extends Controller
 {
   public function index()
   {
-    $states = States::all();
+    $states = State::all();
     return view('states.index', compact('states'));
   }
 
@@ -20,10 +20,22 @@ class StatesController extends Controller
 
   public function store(Request $request)
   {
-    $stateData = new States();
+    $stateData = new State();
     $stateData->name = $request->StateName;
     $stateData->status = $request->Status;
     $stateData->save();
     return redirect('/states');
+  }
+
+  public function show($id)
+  {
+    $stateData = State::findOrFail($id);
+    return view('states.show', compact('stateData'));
+  }
+
+  public function edit($id)
+  {
+    $stateData = State::findOrFail($id);
+    return view('states.edit', compact('stateData'));
   }
 }

@@ -31,4 +31,10 @@ class CountriesController extends Controller
       $countryData = Country::findOrFail($id);
       return view('countries.show', compact('countryData'));
     }
+
+    public function edit($id)
+    {
+      $countryData = Country::findOrFail($id);
+      return view('countries.edit', compact('countryData'));
+    }
 }
