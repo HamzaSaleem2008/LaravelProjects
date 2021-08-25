@@ -5,31 +5,53 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\city;
 
-  class CityController extends Controller
-  {
-    public function index()
+    class CityController extends Controller
     {
-      $cities = City::all();
-      return view('cities.index', compact('cities'));
+      public function index()
+      {
+        $cities = City::all();
+        return view('cities.index', compact('cities'));
+      }
+
+      public function create()
+      {
+        return view('cities.create');
+      }
+
+      public function store(Request $request)
+      {
+        $city = new City();
+        $city->name = $request->CityName;
+        $city->status = $request->CityName;
+        $city->save();
+        return redirect('/cities');
+      }
+
+      public function show($id)
+      {
+        $cityData = City::findOrFail($id);
+        return view('cities.show', compact('cityData'));
     }
 
-    public function create()
+    public function edit($id)
     {
-      return view('cities.create');
+      $cityData = City::findOrFail($id);
+      return view('cities.edit', compact('cityData'));
     }
 
-    public function store(Request $request)
+    public function update(Request $request, $id)
     {
-      $city = new City();
-      $city->name = $request->CityName;
-      $city->status = $request->CityName;
-      $city->save();
+      $cityData = City::findOrFail($id);
+      $cityData->name = $request->CityName;
+      $cityData->status = $request->CityStatus;
+      $cityData->save();
       return redirect('/cities');
     }
 
-    public function show($id)
+    public function destroy($id)
     {
       $cityData = City::findOrFail($id);
-      return view('cities.show', compact('cityData'));
-  }
+      $cityData->delete();
+      return redirect('/cities');
+    }
 }

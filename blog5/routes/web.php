@@ -58,3 +58,8 @@ Route::post('/states/store', 'StatesController@store');
 Route::get('/states/show/{id}', 'StatesController@show');
 Route::get('/states/edit/{id}', 'StatesController@edit');
 Route::post('/states/delete/{id}', 'StatesController@destroy');
+
+Route::get('/cities', 'CitiesController@index');
+Route::get('/cities/create', 'CitiesController@create');
+Route::post('/cities/store', 'CitiesController@store');
+Route::get('/cities/show/{id}', 'CitiesController@show');

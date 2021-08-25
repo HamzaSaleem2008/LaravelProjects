@@ -43,13 +43,6 @@
             <td>
               <a class="btn btn-primary" href="/cities/create">Create</a>
               <a class="btn btn-info" href="/cities/show/{{$city->id}}">Show</a>
-              <a class="btn btn-warning" href="/cities/edit/{{$city->id}}">Edit</a>
-              <span class="float-left mr-1">
-                <form class="" action="/cities/delete/{{$city->id}}" method="post">
-                  @csrf
-                  <button class="btn btn-danger" type="submit" name="button">Delete</button>
-                </form>
-              </span>
             </td>
           </tr>
           @endforeach
