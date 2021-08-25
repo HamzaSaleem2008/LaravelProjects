@@ -22,7 +22,7 @@
   <body>
     <div class="container">
       <h1>Edit Country Detail</h1>
-      <form class="" action="index.html" method="post">
+      <form class="" action="/countries/update/{{$countryData->id}}" method="post">
         @csrf
         <div class="form-group">
           <label for="CountryName">Country Name</label>

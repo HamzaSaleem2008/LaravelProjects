@@ -50,9 +50,16 @@ Route::get('/countries/create', 'CountriesController@create');
 Route::post('/countries/store', 'CountriesController@store');
 Route::get('/countries/show/{id}', 'CountriesController@show');
 Route::get('/countries/edit/{id}', 'CountriesController@edit');
+Route::post('/countries/delete/{id}', 'CountriesController@destroy');
 
 Route::get('/states', 'StatesController@index');
 Route::get('/states/create', 'StatesController@create');
 Route::post('/states/store', 'StatesController@store');
 Route::get('/states/show/{id}', 'StatesController@show');
 Route::get('/states/edit/{id}', 'StatesController@edit');
+Route::post('/states/delete/{id}', 'StatesController@destroy');
+
+Route::get('/cities', 'CitiesController@index');
+Route::get('/cities/create', 'CitiesController@create');
+Route::post('/cities/store', 'CitiesController@store');
+Route::get('/cities/show/{id}', 'CitiesController@show');

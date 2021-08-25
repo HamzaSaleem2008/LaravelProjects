@@ -38,4 +38,20 @@ class StatesController extends Controller
       $stateData = State::findOrFail($id);
       return view('states.edit', compact('stateData'));
     }
+
+    public function update(Request $request, $id)
+    {
+      $stateData = State::findOrFail($id);
+      $stateData->name = $request->stateName;
+      $stateData->status = $request->stateStatus;
+      $stateData->save();
+      return redirect('/states');
+    }
+
+    public function destroy($id)
+    {
+      $stateData = State::findOrFail($id);
+      $stateData->delete();
+      return redirect('/states');
+    }
 }

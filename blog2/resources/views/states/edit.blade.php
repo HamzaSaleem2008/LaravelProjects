@@ -22,13 +22,17 @@
   <body>
     <div class="container">
       <h1>Edit State Detail</h1>
-      <form class="" action="index.html" method="post">
+      <form class="" action="/states/update/{{$stateData->id}}" method="post">
         @csrf
         <div class="form-group">
           <label for="stateName">State Name</label>
           <input class="form-control" id="stateName" type="text" name="stateName" value="{{$stateData->name}}">
         </div>
-        <button class="btn btn-primary" type="submit" name="button">Submit</button>
+        <div class="form-group">
+          <label for="stateStatus">Status</label>
+          <input class="form-control" id="stateStatus" type="text" name="stateStatus" value="{{$stateData->status}}">
+        </div>
+        <button class="btn btn-primary" type="submit" name="button">Update</button>
       </form>
     </div>
   </body>
