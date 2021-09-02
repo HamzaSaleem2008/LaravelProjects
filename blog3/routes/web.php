@@ -62,3 +62,6 @@ Route::get('/cities', 'CitiesController@index');
 Route::get('/cities/create', 'CitiesController@create');
 Route::post('/cities/store', 'CitiesController@store');
 Route::get('/cities/show/{id}', 'CitiesController@show');
+Route::get('/cities/edit/{id}', 'CitiesController@edit');
+Route::post('/cities/update/{id}', 'CitiesController@update');
+Route::post('/cities/delete/{id}', 'CitiesController@destroy');

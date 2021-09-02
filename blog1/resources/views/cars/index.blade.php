@@ -24,37 +24,43 @@
     <div class="container">
       <div class="">
         <span class="float-left">
-          <h1>Cities</h1>
+          <h1>Cars</h1>
         </span>
         <span class="float-right mt-2">
-          <a class="btn btn-primary" href="/cities/create"><i class="fas fa-plus"></i>Create</a>
+          <a class="btn btn-primary" href="/cars/create"><i class="fas fa-plus"></i>Create</a>
         </span>
       </div>
       <table class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">Status</th>
-            <th scope="col">Created At</th>
-            <th scope="col">Updates At</th>
+            <th scope="col">Make</th>
+            <th scope="col">Model</th>
+            <th scope="col">Year of Make</th>
+            <th scope="col">No Plate Allot</th>
+            <th scope="col">Vin</th>
+            <th scope="col">Created at</th>
+            <th scope="col">Updated at</th>
             <th scope="col">Actions</th>
           </tr>
         </thead>
         <tbody>
-          @foreach($cities as $city)
+          @foreach($cars as $car)
           <tr>
-            <td>{{ $city->id }}</td>
-            <td>{{ $city->name }}</td>
-            <td>{{ $city->status }}</td>
-            <td>{{ $city->created_at }}</td>
-            <td>{{ $city->updated_at }}</td>
+            <td>{{ $car->id }}</td>
+            <td>{{ $car->make }}</td>
+            <td>{{ $car->model }}</td>
+            <td>{{ $car->year_of_make }}</td>
+            <td>{{ $car->no_plate_allot }}</td>
+            <td>{{ $car->vin }}</td>
+            <td>{{ $car->created_at }}</td>
+            <td>{{ $car->updated_at }}</td>
             <td>
-              <div class="btn-group" role="group" aria-label="City button">
-                <a class="btn btn-info" href="/cities/show/{{$city->id}}"><i class="fas fa-eye"></i></a>
-                <a class="btn btn-warning" href="/cities/edit/{{$city->id}}"><i class="fas fa-edit"></i></a>
+              <div class="btn-group" role="group" aria-label="car button">
+                <a class="btn btn-info" href="/cars/show/{{$car->id}}"><i class="fas fa-eye"></i></a>
+                <a class="btn btn-warning" href="/cars/edit/{{$car->id}}"><i class="fas fa-edit"></i></a>
                 <span class="float-left mr-1">
-                  <form class="" action="/cities/delete/{{$city->id}}" method="post">
+                  <form class="" action="/cars/delete/{{$car->id}}" method="post">
                     @csrf
                     <button class="btn btn-danger" type="submit" name="button"><i class="fas fa-trash"></i></button>
                   </form>
