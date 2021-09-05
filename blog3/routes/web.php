@@ -65,3 +65,11 @@ Route::get('/cities/show/{id}', 'CitiesController@show');
 Route::get('/cities/edit/{id}', 'CitiesController@edit');
 Route::post('/cities/update/{id}', 'CitiesController@update');
 Route::post('/cities/delete/{id}', 'CitiesController@destroy');
+
+Route::get('/cars', 'CarsController@index');
+Route::get('/cars/create', 'CarsController@create');
+Route::get('/cars/edit/{id}', 'CarsController@edit');
+Route::post('/cars/store', 'CarsController@store');
+Route::get('/cars/show/{id}', 'CarsController@show');
+Route::post('/cars/destroy/{id}', 'CarsController@destroy');
+Route::post('/cars/update/{id}', 'CarsController@update');

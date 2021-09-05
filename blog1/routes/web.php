@@ -70,3 +70,9 @@ Route::post('/cities/delete/{id}', 'CityController@destroy');
 
 
 Route::get('/cars', 'CarsController@index');
+Route::get('/cars/create', 'CarsController@create');
+Route::get('/cars/edit/{id}', 'CarsController@edit');
+Route::post('/cars/store', 'CarsController@store');
+Route::get('/cars/show/{id}', 'CarsController@show');
+Route::post('/cars/destroy/{id}', 'CarsController@destroy');
+Route::post('/cars/update/{id}', 'CarsController@update');

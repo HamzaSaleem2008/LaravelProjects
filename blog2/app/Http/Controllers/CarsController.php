@@ -14,8 +14,8 @@ class CarsController extends Controller
      */
     public function index()
     {
-        $cars = Car::all();
-        return view('cars.index', compact('cars'));
+      $cars = Car::all();
+      return view('cars.index', compact('cars'));
     }
 
     /**
@@ -25,7 +25,7 @@ class CarsController extends Controller
      */
     public function create()
     {
-        return view('cars.create');
+      return view('cars.create');
     }
 
     /**
@@ -36,14 +36,14 @@ class CarsController extends Controller
      */
     public function store(Request $request)
     {
-        $carData = new Car();
-        $carData->make = $request->CarName;
-        $carData->model = $request->CarModel;
-        $carData->year_of_make = $request->CarYearOfMake;
-        $carData->no_plate_allot = $request->CarNoPlateAllot;
-        $carData->Vin = $request->CarVin;
-        $carData->save();
-        return redirect('/cars');
+      $carData = new Car();
+      $carData->make = $request->CarName;
+      $carData->model = $request->CarModel;
+      $carData->year_of_make = $request->CarYearOfMake;
+      $carData->no_plate_allot = $request->CarNoPlateAllot;
+      $carData->Vin = $request->CarVin;
+      $carData->save();
+      return redirect('/cars');
     }
 
     /**
@@ -54,8 +54,8 @@ class CarsController extends Controller
      */
     public function show($id)
     {
-        $carData = Car::findOrFail($id);
-        return view('cars.show', compact('carData'));
+      $carData = Car::findOrFail($id);
+      return view('cars.show', compact('carData'));
     }
 
     /**
