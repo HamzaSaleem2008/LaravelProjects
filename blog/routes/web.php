@@ -38,3 +38,6 @@ Route::get('/cities', 'CitiesController@index');
 Route::get('/cities/create', 'CitiesController@create');
 Route::post('/cities/store', 'CitiesController@store');
 Route::get('/cities/show/{id}', 'CitiesController@show');
+
+//PakSweetsRoute
+Route::get('/paksweets',  'PakSweetsController@index');
