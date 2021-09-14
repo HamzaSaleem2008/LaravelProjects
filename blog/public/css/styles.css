@@ -5,3 +5,8 @@ body {
 .navbar-ltblue {
   background-color: #23FFEC;
 }
+
+.text-ltblue {
+  color: #23FFEC;
+  font-family: 'Headland One', serif;
+}
