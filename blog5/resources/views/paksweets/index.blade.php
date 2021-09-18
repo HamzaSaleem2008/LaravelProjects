@@ -15,6 +15,9 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -78,6 +81,45 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+    </div>
+
+    <div class="container">
+      <div class="my-5">
+        <div class="row">
+          <img src="{{ asset('images/promotion.jpg') }}" alt="Promotion">
+        </div>
+      </div>
+      <div class="my-5">
+        <h2 class="text-center text-ltblue display-4">Sweets, Snacks & Foods!!</h2>
+        <div class="row">
+          <div class="card-deck">
+            <div class="card text-center border-0" style="width: 18rem;">
+              <img src="{{ asset('images/content-1.jpg') }}" alt="Halwa">
+              <div class="card-body">
+                <h5 class="text-ltblue">HALWA</h5>
+              </div>
+            </div>
+            <div class="card text-center border-0" style="width: 18rem;">
+              <img src="{{ asset('images/content-2.jpg') }}" alt="Bangali Sweets">
+              <div class="card-body">
+                <h5 class="text-ltblue">BANGALI SWEETS</h5>
+              </div>
+            </div>
+            <div class="card text-center border-0" style="width: 18rem;">
+              <img src="{{ asset('images/content-3.jpg') }}" alt="Kalakand">
+              <div class="card-body">
+                <h5 class="text-ltblue">KALAKAND</h5>
+              </div>
+            </div>
+            <div class="card text-center border-0" style="width: 18rem;">
+              <img src="{{ asset('images/content-4.jpg') }}" alt="Samosa">
+              <div class="card-body">
+                <h5 class="text-ltblue">SAMOSA</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
