@@ -10,3 +10,7 @@ body {
   color: #23FFEC;
   font-family: 'Headland One', serif;
 }
+
+.carousel-caption {
+  text-align: left;
+}
