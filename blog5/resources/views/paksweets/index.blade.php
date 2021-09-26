@@ -183,6 +183,73 @@
           </div>
         </div>
       </div>
+
+      <div class="my-5">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card border-0" style="width: 18rem;">
+                <img src="{{ asset('images/chococookie.jpg') }}" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-ltblue">CHOCO COOKIES</h5>
+                  <p class="card-text text-muted mb-0">BAKERY</p>
+                  <p class="card-text">$7.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0" style="width: 18rem;">
+                <img src="{{ asset('images/content-22.jpg') }}" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-ltblue">BAKARKHANI</h5>
+                  <p class="card-text text-muted mb-0">BAKERY</p>
+                  <p class="card-text">$7.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0" style="width: 18rem;">
+                <img src="{{ asset('images/content-23.jpg') }}" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-ltblue">DONUTS</h5>
+                  <p class="card-text text-muted mb-0">BAKERY</p>
+                  <p class="card-text">$7.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-border-0" style="width: 18rem;">
+                <img src="{{ asset('images/content-24.jpg') }}" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-ltblue">ORANGE JUICE</h5>
+                  <p class="card-text text-muted mb-0">JUICE</p>
+                  <p class="card-text">$7.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-border-0" style="width: 18rem;">
+                <img src="{{ asset('images/custard.jpg') }}" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-ltblue">CUSTARD</h5>
+                  <p class="card-text text-muted mb-0">BAKERY</p>
+                  <p class="card-text">$9.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-border-0" style="width: 18rem;">
+                <img src="{{ asset('images/tea.jpg') }}" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-ltblue">TEA</h5>
+                  <p class="card-text text-muted mb-0">DRINKS</p>
+                  <p class="card-text">$9.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
