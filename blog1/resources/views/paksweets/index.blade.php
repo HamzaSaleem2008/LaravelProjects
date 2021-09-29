@@ -22,6 +22,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-ltblue fixed-top">
@@ -250,6 +251,52 @@
           </div>
         </div>
       </div>
-    </div>
+
+      <div class="my-5">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card text-center border-0" style="width: 18rem;">
+                <span>
+                  <i style="font-size: 125px;" class="fas fa-shipping-fast text-ltblue"></i>
+                </span>
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Fast Shipping</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-center border-0" style="width: 18rem;">
+                <span>
+                  <i style="font-size: 125px;" class="fas fa-check-circle text-ltblue"></i>
+                </span>
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Top Quality Products</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-center border-0" style="width: 18rem;">
+                <span>
+                  <i style="font-size: 125px;" class="fas fa-lock text-ltblue"></i>
+                </span>
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Securce Payment</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-center border-0" style="width: 18rem;">
+                <span>
+                  <i style="font-size: 125px;" class="fas fa-utensils text-ltblue"></i>
+                </span>
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Clean Enviorment</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
