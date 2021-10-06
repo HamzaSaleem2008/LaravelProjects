@@ -41,3 +41,6 @@ Route::get('/cities/show/{id}', 'CitiesController@show');
 
 //PakSweetsRoute
 Route::get('/paksweets',  'PakSweetsController@index');
+
+//MrpmwebsiteRoutes
+Route::get('/mrpmautos', 'MrpmautosController@index')->name('mrpmautos.index');

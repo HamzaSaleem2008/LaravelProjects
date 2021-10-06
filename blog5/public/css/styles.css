@@ -1,5 +1,5 @@
 body {
-  padding-top: 66px;
+  padding-top: 96px;
 }
 
 .navbar-ltblue {
@@ -13,4 +13,8 @@ body {
 
 .carousel-caption {
   text-align: left;
+}
+
+.bg-ltblue {
+  background-color: #23FFEC;
 }

@@ -78,3 +78,6 @@ Route::post('/cars/destroy/{id}', 'CarsController@destroy');
 Route::post('/cars/update/{id}', 'CarsController@update');
 
 Route::get('/paksweets', 'PakSweetsController@index');
+
+//MrpmwebsiteRoutes
+Route::get('/mrpmautos', 'MrpmautosController@index')->name('mrpmautos.index');
