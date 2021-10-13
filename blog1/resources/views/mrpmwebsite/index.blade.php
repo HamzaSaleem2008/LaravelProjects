@@ -47,6 +47,22 @@
         </div>
       </nav>
     </header>
+
+    <div class="bg-light py-3 py-sm-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+            <img class="img-fluid" src="{{ asset('images/mrpmcar - Copy.jpg') }}" alt="">
+          </div>
+          <div class="col-12 col-lg-6">
+            <h1 class="display-1">MRPM AUTOS</h1>
+            <p class="lead">In MRPM people do engine diagnostics. MRPM also changees the oil because sometimes the oil is either to old or just not good for the car. MRPM also changes the color of the car because it doesn't look good or the paint on it is scrached. MRPM also changes the tires so if you are in a middle of a street the tire doesn't explode!!!!</p>
+            <a href="" class="btn btn-primary btn-lg me-2">Read more</a>
+            <a href="{{ route('mrpmautos.contact') }}" class="btn btn-outline-primary btn-lg">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="py-3">
 
     </div>

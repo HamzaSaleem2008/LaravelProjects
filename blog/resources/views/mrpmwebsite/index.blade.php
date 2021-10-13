@@ -47,11 +47,27 @@
         </div>
       </nav>
     </header>
+
+    <div class="bg-light py-3 py-sm-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+            <img class="img-fluid" src="{{ asset('images/mrpmcar - Copy.jpg') }}" alt="">
+          </div>
+          <div class="col-12 col-lg-6">
+            <h1 class="display-1">MRPM AUTOS</h1>
+            <p class="lead">anycontant</p>
+            <a href="" class="btn btn-primary btn-lg me-2">Read more</a>
+            <a href="{{ route('mrpmautos.contact') }}" class="btn btn-outline-primary btn-lg">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="py-3">
 
     </div>
     <div class="py-3">
-      
+
     </div>
     <footer class="small bg-light">
       <div class="container py-3">
