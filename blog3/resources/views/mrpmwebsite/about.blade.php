@@ -28,13 +28,13 @@
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="{{ route('mrpmautos.index') }}">Home</a>
+                <a class="nav-link" href="{{ route('mrpmautos.index') }}">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('mrpmautos.services') }}">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('mrpmautos.about') }}">About</a>
+                <a class="nav-link active" href="{{ route('mrpmautos.about') }}">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('mrpmautos.team') }}">Team</a>
@@ -51,7 +51,7 @@
 
     </div>
     <div class="py-3">
-
+      <h1>About</h1>
     </div>
     <footer class="small bg-light">
       <div class="container py-3">
