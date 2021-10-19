@@ -56,9 +56,40 @@
           </div>
           <div class="col-12 col-lg-6">
             <h1 class="display-1">MRPM AUTOS</h1>
-            <p class="lead">anycontant</p>
+            <p class="lead">In MRPM people do engine diagnostics. MRPM also changees the oil because sometimes the oil is either to old or just not good for the car.
+            MRPM also changes the color of the car because it doesn't look good or the paint on it is scrached.
+            MRPM also changes the tires so if you are in a middle of a street the tire doesn't explode etc.</p>
             <a href="" class="btn btn-primary btn-lg me-2">Read more</a>
             <a href="{{ route('mrpmautos.contact') }}" class="btn btn-outline-primary btn-lg">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-3 my-sm-5">
+      <div class="row bg-light mb-3 mb-sm-5 g-0 p-4">
+        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="row">
+            <div class="col-12 col-sm-6 text-center">
+              <img src="{{ asset('images/Whatwedo.jpg') }}" class="img-fluid rounded-circle mb-4 mb-lg-0" alt="Whatwedo">
+            </div>
+            <div class="col-12 col-sm-6">
+              <h2>What we do</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis velit quis sapien sollicitudin ultrices. Ut metus tortor, aliquet non rutrum ac, dapibus vehicula augue. Etiam congue erat sem, vitae gravida nunc pretium vitae. Fusce sed ex tellus.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-12 col-sm-6 text-center">
+              <img src="{{ asset('images/Whoweare.jpg') }}" class="img-fluid rounded-circle mb-4 mb-lg-0" alt="Whoweare">
+            </div>
+            <div class="col-12 col-sm-6">
+              <h2>Who we are</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis velit quis sapien sollicitudin ultrices. Ut metus tortor, aliquet non rutrum ac, dapibus vehicula augue. Etiam congue erat sem, vitae gravida nunc pretium vitae. Fusce sed ex tellus.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
           </div>
         </div>
       </div>
