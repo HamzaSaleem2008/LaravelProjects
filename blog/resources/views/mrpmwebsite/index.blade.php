@@ -93,6 +93,68 @@
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="10-23-2021">10-23-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">News Item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="11-6-2021">11-6-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">New Item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="12-21-2021">12-21-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">New Item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="01-24-2022">01-24-2022</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">New Item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="py-3">
 
