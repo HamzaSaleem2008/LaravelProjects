@@ -47,11 +47,36 @@
         </div>
       </nav>
     </header>
-    <div class="py-3">
 
-    </div>
-    <div class="py-3">
-      <h1>About</h1>
+    <div class="container my-3 my-sm-5 py-5">
+      <h1 class="text-center mb-sm-4 display-1">About</h1>
+      <div class="mb-sm-4">
+        <h2 class="text-center mb-sm-4">Our story</h2>
+        <p>Any Content</p>
+      </div>
+      <div class="mb-sm-4">
+        <h2 class="text-center mb-sm-4">Our office</h2>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <figure class="figure">
+              <img src="{{ asset('images/Garage-1.jpg') }}" class="figure-img img-fluid" alt="Garage-1">
+              <figcaption class="figure-caption small">
+                <p class="mb-0 fst-italic">Photo by: Hamza Saleem</p>
+                <p class="mb-0">I capture the picture in MRPM Garage</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-lg-6">
+            <figure class="figure">
+              <img src="{{ asset('images/office-1.jpg') }}" class="figure-img img-fluid" alt="Office-1">
+              <figcaption class="figure-caption small">
+                <p class="mb-0 fst-italic">Photo by: Hamza Saleem</p>
+                <p class="mb-0">I captured the picture in one of the Mrpm Office</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="small bg-light">
       <div class="container py-3">
