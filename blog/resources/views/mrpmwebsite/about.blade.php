@@ -77,6 +77,31 @@
           </div>
         </div>
       </div>
+      <div class="mb-sm-4">
+        <h2 class="text-center mb-sm-4">Our Clients</h2>
+        <div class="row">
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img src="{{ asset('images/ToyotaLogo.jpg') }}" class="img-fluid rounded-circle" alt="Toyota-Logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img src="{{ asset('images/SuzukiLogo.png') }}" class="img-fluid" alt="Suzki-Logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img src="{{ asset('images/lincolnLogo.jpg') }}" class="img-fluid" alt="Lincoln-Logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img src="{{ asset('images/FerrariLogo.jpg') }}" alt="Ferrari-Logo" class="img-fluid">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img src="{{ asset('images/LamborghiniLogo.jpg') }}" alt="Lamborghini-Logo" class="img-fluid">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img src="{{ asset('images/TeslaLogo.png') }}" alt="Tesla-logo" class="img-fluid">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3"><img src="" alt="" class="img-fluid"></div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3"><img src="" alt="" class="img-fluid"></div>
+        </div>
+      </div>
     </div>
     <footer class="small bg-light">
       <div class="container py-3">
