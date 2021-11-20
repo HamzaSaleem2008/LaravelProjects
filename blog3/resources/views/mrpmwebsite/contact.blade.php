@@ -64,9 +64,9 @@
             <br>
             Chicago, IL 60659
             <br>
-            <i class="fas fa-fw fa-phone"></i><a href="tel:+7739778888">(773) 977-8888</a>
+            <i class="fas fa-fw fa-phone"></i> <a href="tel:+7739778888">(773) 977-8888</a>
             <br>
-            <i class="fas fa-fw fa-envelope"></i><a href="mailto:admin@mrpmautos.com">admin@mrpmautos.com</a>
+            <i class="fas fa-fw fa-envelope"></i> <a href="mailto:admin@mrpmautos.com">admin@mrpmautos.com</a>
           </address>
         </div>
         <div class="col-12 col-md-6">
@@ -102,7 +102,48 @@
                 </div>
               </div>
             </div>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="telephone">Telephone</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                    <input id="telephone" class="form-control" type="tel" name="" value="" placeholder="0123456789" required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="department">Department</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-home"></i></span>
+                    <select class="form-select" id="department" name="" aria-describedby="department-help-block" required>
+                      <option value="">- select here -</option>
+                      <option value="buisness">Buisness</option>
+                      <option value="sale">Sale</option>
+                      <option value="support">Support</option>
+                    </select>
+                  </div>
+                  <small class="form-text" id="department-help-block">Please select the recipient of your message.</small>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Message:</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                <textarea name="name" rows="5" id="message" class="form-control" placeholder="Write your message here..." required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
           </form>
+        </div>
+        <div class="col-12 col-lg-6">
+          <h2>Where to find us</h2>
+          <div class="ratio ratio-4x3">
+            <img src="https://maps.locationiq.com/v3/staticmap?key=pk.41891fce7eeb9cd5b3876f056f400dc4&center=41.99555,-87.68947&zoom=14&size=300x300&format=jpg&markers=icon:small-blue-cutout|41.99555,-87.68947&markers=icon:small-blue-cutout|41.99555,-87.68947" alt="Our Location">
+          </div>
         </div>
       </div>
     </div>
